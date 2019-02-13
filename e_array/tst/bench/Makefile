@@ -6,4 +6,4 @@ build:
 clean:
 		rm with_e_arr
 		rm native
-		mr vector
+		rm vector

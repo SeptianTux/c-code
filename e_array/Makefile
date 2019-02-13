@@ -3,3 +3,6 @@ test:
 
 test-debug:
 		gdb ./test
+
+clean:
+		rm ./test
