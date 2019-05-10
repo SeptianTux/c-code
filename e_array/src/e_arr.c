@@ -21,7 +21,7 @@ int e_arr_realloc (E_ARR **ptr, unsigned int new_size)
     
     (*ptr)->value = realloc ((*ptr)->value, sizeof (*(*ptr)->value)*n_size);
     
-    (*ptr)->allocated_size = new_size;
+    (*ptr)->allocated_size = n_size;
     
     return 0;
 }

@@ -1,8 +1,10 @@
+.PHONY: test
+
 test:
-		gcc -Wall -ggdb test.c e_arr.c -o test
+		gcc -Wall -ggdb src/test.c src/e_arr.c -o test.bin
 
 test-debug:
-		gdb ./test
+		gdb ./test.bin
 
 clean:
-		rm ./test
+		rm ./test.bin

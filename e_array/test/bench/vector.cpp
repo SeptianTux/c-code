@@ -3,13 +3,15 @@
 
 #include "bench-data.h"
 
-using namespace std; 
+using namespace std;
 
 int main ()
 {
     int i, j;
     vector<string> *s = new vector<string>;
-    
+
+    assignData();
+
     for (i=0; i<400; i++)
     {
         for (j=0; j<ARR_SIZE; j++)

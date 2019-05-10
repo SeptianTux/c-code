@@ -10,6 +10,8 @@ int main (void)
     
     char **a = malloc(sizeof (*a)*(ARR_SIZE*400));
     
+    assignData();
+
     h = 0;
     for (i=0; i<400; i++)
     {

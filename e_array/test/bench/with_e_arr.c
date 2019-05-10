@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../../e_arr.h"
+#include "../../src/e_arr.h"
 
 #include "bench-data.h"
 
