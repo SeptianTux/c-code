@@ -18,7 +18,6 @@ int main (void)
         for (j=0; j<ARR_SIZE; j++)
         {
             e_arr_add_end (&v, data[j]);
-            j++;
         }
     }
     

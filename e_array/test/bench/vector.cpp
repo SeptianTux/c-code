@@ -3,12 +3,10 @@
 
 #include "bench-data.h"
 
-using namespace std;
-
 int main ()
 {
     int i, j;
-    vector<string> *s = new vector<string>;
+    std::vector<std::string> *s = new std::vector<std::string>;
 
     assignData();
 
